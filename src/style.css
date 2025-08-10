@@ -1,5 +1,33 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
-body{
-    background: white;
+
+img {
+    object-fit: fill;
+    width: 600px;
+    height: auto;
+}
+
+.libertinus-sans-regular {
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libertinus-sans-bold {
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.libertinus-sans-regular-italic {
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(84, 84, 2209), rgb(147, 87, 147), rgba(238, 59, 89, 0.664));
 }
